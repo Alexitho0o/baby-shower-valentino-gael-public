@@ -9,10 +9,10 @@ const deepFreeze = (value) => {
 
 export const PHOTO_ALBUM_CONFIG = deepFreeze({
   schemaVersion: 2,
-  enabled: false,
-  previewVisible: true,
+  enabled: true,
+  previewVisible: false,
   provider: "Apple Shared Albums",
-  url: null,
+  url: "https://www.icloud.com/sharedalbum/#B2KGgZLKuP9jvhH",
   linkLabel: "Abrir álbum compartido",
   instructions:
     "Los invitados podrán agregar y descargar las fotografías del Baby Shower.",

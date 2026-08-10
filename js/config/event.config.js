@@ -45,7 +45,7 @@ export const EVENT_CONFIG = deepFreeze({
   },
   documents: {
     agendaPdfUrl: null,
-    photoAlbumUrl: null,
+    photoAlbumUrl: "https://www.icloud.com/sharedalbum/#B2KGgZLKuP9jvhH",
   },
   contact: {
     alexi: {
