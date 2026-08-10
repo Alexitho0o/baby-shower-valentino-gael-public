@@ -1,0 +1,14 @@
+{
+  "environment": "production",
+  "release": "H7B_RC1",
+  "source_repository": "Alexitho0o/baby-shower-valentino-gael",
+  "source_site_commit": "ef510dd67c702418900ccb6439974976f34473de",
+  "deployment_repository": "Alexitho0o/baby-shower-valentino-gael-public",
+  "generated_at_utc": "2026-08-10T03:22:11+00:00",
+  "rsvp_mode": "production",
+  "rsvp_enabled": true,
+  "persistence_enabled": true,
+  "supabase_connected": true,
+  "analytics_enabled": false,
+  "production": true
+}
