@@ -23,12 +23,17 @@ export const EVENT_CONFIG = deepFreeze({
   date: {
     day: 31,
     month: "octubre",
-    year: null,
+    year: 2026,
+    iso: "2026-10-31",
     display: "31 de octubre",
+    fullDisplay: "31 de octubre de 2026",
   },
   schedule: {
     start: "12:00",
     end: "19:00",
+    timezone: "America/Santiago",
+    startLocalIso: "2026-10-31T12:00:00",
+    endLocalIso: "2026-10-31T19:00:00",
     display: "12:00 a 19:00 hrs.",
   },
   pool: {
@@ -46,6 +51,8 @@ export const EVENT_CONFIG = deepFreeze({
   documents: {
     agendaPdfUrl: null,
     photoAlbumUrl: "https://www.icloud.com/sharedalbum/#B2KGgZLKuP9jvhH",
+    calendarIcsUrl: "baby-shower-valentino-gael.ics",
+    googleCalendarUrl: "https://calendar.google.com/calendar/render?action=TEMPLATE&text=Baby%20Shower%20de%20Valentino%20Gael&dates=20261031T120000/20261031T190000&ctz=America%2FSantiago&details=Baby%20Shower%20de%20Valentino%20Gael.%0APiscina%20disponible%20durante%20todo%20el%20d%C3%ADa.%0AInvitaci%C3%B3n%3A%0Ahttps%3A%2F%2Falexitho0o.github.io%2Fbaby-shower-valentino-gael-public%2F&location=Pedro%20V%C3%ADctor%20Contreras%202447%2C%20Villa%20Alemana%2C%20Regi%C3%B3n%20de%20Valpara%C3%ADso%2C%20Chile",
   },
   contact: {
     alexi: {

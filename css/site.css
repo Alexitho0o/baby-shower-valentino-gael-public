@@ -895,6 +895,56 @@ a[aria-current="page"] {
   margin-block-start: auto;
 }
 
+.calendar-card {
+  gap: var(--space-4);
+}
+
+.calendar-facts {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+}
+
+.calendar-facts div {
+  display: grid;
+  gap: 0.2rem;
+}
+
+.calendar-facts dt {
+  color: var(--text-secondary);
+  font-size: var(--font-size-label);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.calendar-facts dd {
+  margin: 0;
+  color: var(--text-primary);
+  font-weight: 700;
+}
+
+.calendar-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin-block-start: auto;
+}
+
+.calendar-actions .btn {
+  min-height: 2.75rem;
+}
+
+@media (max-width: 520px) {
+  .calendar-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .calendar-actions .btn {
+    width: 100%;
+  }
+}
+
 .contact-actions {
   display: grid;
   gap: var(--space-3);

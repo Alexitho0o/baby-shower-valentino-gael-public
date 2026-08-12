@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Baby Shower Valentino Gael//Calendar//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:baby-shower-valentino-gael-20261031T120000-america-santiago@alexitho0o.github.io
+DTSTAMP:20260812T000000Z
+DTSTART;TZID=America/Santiago:20261031T120000
+DTEND;TZID=America/Santiago:20261031T190000
+SUMMARY:Baby Shower de Valentino Gael
+LOCATION:Pedro Víctor Contreras 2447\, Villa Alemana\, Región de Valparaíso\, Chile
+DESCRIPTION:Baby Shower de Valentino Gael.\nPiscina disponible durante todo el día.\nInvitación: https://alexitho0o.github.io/baby-shower-valentino-gael-public/
+URL:https://alexitho0o.github.io/baby-shower-valentino-gael-public/
+END:VEVENT
+END:VCALENDAR
